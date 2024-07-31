@@ -10,7 +10,7 @@ VulnGuard is a Python-based security tool designed to detect if a provided URL h
 VulnGuard is a tool made in Python that detects critical web vulnerabilities including:
 - Cross-Site Request Forgery (CSRF)
 - Server-Side Request Forgery (SSRF)
-- XML External Entity (XXE)
+- XML External Entity (XXE)  **Note:** XXE detection currently supports only "PortSwigger Labs" XXE challenges.
 - SQL Injection (SQLi)
 
 When a vulnerability is detected, VulnGuard provides clear and informative output to help you secure your web applications.
@@ -54,6 +54,8 @@ Follow these steps to use VulnGuard:
 - Parses and analyzes HTML responses to identify potential security flaws.
 - Provides clear and colored console output for better readability.
 - Easy integration into existing security workflows.
+- **Note:** XXE detection currently supports only "PortSwigger Labs" XXE challenges.
+
 
 ## Requirements
 
