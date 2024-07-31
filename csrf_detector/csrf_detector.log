@@ -1,0 +1,15 @@
+2024-07-29 16:58:07,186 - INFO - Successful POST request to http://testphp.vulnweb.com/userinfo.php
+2024-07-29 16:58:07,186 - INFO - Vulnerable form found: <form action="userinfo.php" method="post" name="loginform">
+<table cellpadding="4" cellspacing="1">
+<tr><td>Username : </td><td><input name="uname" size="20" style="width:120px;" type="text"/></td></tr>
+<tr><td>Password : </td><td><input name="pass" size="20" style="width:120px;" type="password"/></td></tr>
+<tr><td align="right" colspan="2"><input style="width:75px;" type="submit" value="login"/></td></tr>
+</table>
+</form>
+2024-07-29 16:58:07,502 - INFO - Successful POST request to http://testphp.vulnweb.com/search.php?test=query
+2024-07-29 16:58:07,502 - INFO - Vulnerable form found: <form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+2024-07-29 16:58:07,517 - INFO - Found 2 vulnerable form(s) on http://testphp.vulnweb.com/login.php
